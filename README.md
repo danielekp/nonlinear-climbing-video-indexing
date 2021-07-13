@@ -1,1 +1,1 @@
-![Nonlinear Climbing Video Indexing](./title_nonlinear.png "MarineGEO logo")
+![Nonlinear Climbing Video Indexing](./titolo_nonlinear.png "Title")
