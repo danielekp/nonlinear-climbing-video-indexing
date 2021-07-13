@@ -1,0 +1,62 @@
+{
+  "name": "openpose_climbing",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "blob": "^0.1.0",
+    "bootstrap": "^4.5.3",
+    "bootstrap-react": "^0.5.0-alpha.12",
+    "detect-browser": "^5.2.0",
+    "konva": "^7.1.2",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.4.0",
+    "react-canvas-video": "0.0.4",
+    "react-cursor-position": "^3.0.3",
+    "react-dom": "^16.14.0",
+    "react-hover-scrub": "^0.2.2",
+    "react-image-file": "^0.3.0",
+    "react-konva": "^16.13.0-6",
+    "react-player": "^2.7.0",
+    "react-rectangle-selection": "^1.0.4",
+    "react-redux": "^7.2.2",
+    "react-region-select": "^2.3.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "react-scrubber": "^1.0.2",
+    "react-video-js-player": "^1.1.1",
+    "react-video-thumbnail": "^0.1.3",
+    "readable-stream": "^3.6.0",
+    "rsuite": "^4.10.2",
+    "simple-react-video-thumbnail": "0.0.7",
+    "stream": "0.0.2",
+    "stream-to-blob": "^2.0.1",
+    "typescript": "^4.1.3",
+    "video-react": "^0.14.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:5000"
+}
