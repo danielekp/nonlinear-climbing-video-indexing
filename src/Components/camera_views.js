@@ -27,7 +27,7 @@ class CameraViews extends React.Component{
 
   componentDidMount(){
 
-    const images = importAll(require.context('../../../data/cameraImages/', false, /\.(png|jpe?g)$/));
+    const images = importAll(require.context('../../cameraImages/', false, /\.(png|jpe?g)$/));
 
     this.max_count = images.length;
     this.setState({images: images, wait: false})

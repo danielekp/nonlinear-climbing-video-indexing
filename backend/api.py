@@ -30,6 +30,7 @@ class GetVideos(Resource):
                             if find:
                                 print(people)
                                 url_list.append({'url': url_for('static', filename=filename[:-5]), 'frame': frame})
+                                url_list.append({'url': url_for('static', filename=filename[:-5]), 'frame': frame})
                                 flag = 1
                                 break
                     else:
